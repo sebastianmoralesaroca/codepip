@@ -1,0 +1,50 @@
+cone
+cup
+scoop
+scoop
+.lemon
+.chocolate
+cone.chocolate
+scoop.chocolate.sprinkles
+#mystery
+cup > scoop
+cone > scoop
+cup > .mint
+.chocolate>scoop
+.chocolate > .mint
+cone , cup
+.mint,.chocolate
+.chocolate , #mystery , cup
+cup > scoop, cup > cone > scoop
+cup > scoop
+cup > .mint
+.chocolate ~ scoop
+cup ~ cone
+cup + cone
+*
+cup *
+:first-child
+scoop:first-child
+scoop:last-child
+scoop:nth-child(2)
+scoop:nth-last-child(2)
+scoop:nth-child(even)
+scoop:only-child
+cup:empty
+:not(cone)
+scoop:not(.lemon)
+scoop:not(scoop:nth-child(2))
+cone:not(cone:nth-child(3))
+cup :is(.mint , .lemon)
+cone :where(.lemon , .chocolate , .mint)
+:is(cup, cone) scoop
+[for]
+[for=Theo]
+[for="danah" i]
+cone[for=Zara]
+[for~=rose i]
+[for|=billy i]
+[for^=xa i]
+[for$=on i]
+[for*=q i]
+[for*=s i]
