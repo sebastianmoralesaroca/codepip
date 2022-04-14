@@ -1,0 +1,14 @@
+transform: translatex(100px)
+transform: translatex(100px)
+transform: translatey(-190px)
+transform: translate(100px, 150px);
+transform: rotate(180deg);
+transform: rotate(300grad);
+transform: translatex(55px) rotate(95grad)
+transform: scale(2)
+transform: scale(0.5, 2);
+transform: scale(-1 , -2)
+transform: scale(1 , 2) translatex(-100px) translatey(24px)
+transform: skewx(50grad)
+transform: skewy(421grad) translatey(200px)
+transform: rotate(97grad) translatex(54px) scale(2) translatey(-49px) skew(31grad)
